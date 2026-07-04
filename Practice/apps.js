@@ -188,3 +188,85 @@
 //     console.log( student[i][j]);
 //   }
 // }
+
+
+// object Literal
+
+// const Student = {
+//   name : "Suraj kumar",
+//   age : 36,
+//   cource : "Btech",
+//   branch : "CSE"
+// }
+
+// console.log(Student);
+
+// const TwiterPost = {
+//   username : "Suraj_kumar897",
+//   content : ["Photo , video"],
+//   likes : 764,
+//   reposte : "3 Account",
+//   tag: "4 Account"
+// }
+
+
+
+// Nested Object 
+
+// let Student = {
+//   name : {
+//     grade : "A+",
+//     name : "Suraj kumar",
+//   },
+//   age : 64,
+//   address : {
+//     city : "Lucknow",
+//     sector : 1,
+//   },
+//   college : {
+//     collegeName : "University of Lucknow",
+//     campusename : "Old campus"
+//   }
+// }
+
+
+// Array of object 
+
+let CalssInfo  = [
+  {
+    name : "Suraj",
+    age : 64,
+    grade : "A+"
+  },
+  {
+    name : "Shiva",
+    age : 73,
+    grade : "B+"
+  },
+  {
+    name : "Shiva Paswan",
+    age : "22",
+    grade : "C+"
+  }
+]
+
+console.log(Math.PI);
+console.log(Math.E);
+console.log(Math.sqrt(63));
+console.log(Math.round(7.8937));
+console.log(Math.random());
+
+// generate random number from 1 to 10 
+
+let randomNum = Math.floor(Math.random()*10)+1;
+console.log("random Number from 1to 10 : " + randomNum);
+
+// generate otp
+
+let opt = Math.floor(1000+Math.random()*9000);
+console.log("My otp is : ",opt);
+
+// generate 6-digit otp 
+
+let randomOtp = Math.floor(100000 + Math.random()*900000);
+console.log("6-digit otp : " + randomOtp);
