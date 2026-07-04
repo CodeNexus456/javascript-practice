@@ -133,9 +133,58 @@
 
 // Alert and prompt
 
-let firstName = prompt("Enter your first name :");
-let lastName = prompt("Enter your last name : ");
+// let firstName = prompt("Enter your first name :");
+// let lastName = prompt("Enter your last name : ");
 
-let username = `My first name ${firstName} and last name ${lastName} : name is ${firstName}  ${lastName}`;
+// let username = `My first name ${firstName} and last name ${lastName} : name is ${firstName}  ${lastName}`;
 
-console.log(alert(username));
+// console.log(alert(username));
+
+// replace and repeate method
+
+// let msg = "I love Coding";
+
+// console.log(msg.replace("Coding" , "javascript"));
+
+// let msg1 = "help!";
+
+// console.log(msg1.trim());
+
+// //  or
+
+// console.log(msg1.trim().toUpperCase());
+
+
+// nested array 
+
+// for loop
+
+// for (let i=1; i<=100; i++) {
+//   if(i%2==1) {
+//     console.log("Odd number:" , i);
+//   } else{
+//     console.log("even number :" , i);
+//   }
+// } 
+
+// gauss Movie 
+
+// let movie = "Avatar";
+
+// let guess = prompt("Guess movie name ?");
+
+// while(guess!=movie) {
+//   console.log("try again");
+
+
+// }
+
+
+// let student = [["aman",94],["Suraj",92],["Shiva",90]];
+
+// for(let i=0; i<=student.length; i++) {
+//   console.log(`info of Student #${i+1}`);
+//   for(let j=0; j<=student[i].length; j++) {
+//     console.log( student[i][j]);
+//   }
+// }
