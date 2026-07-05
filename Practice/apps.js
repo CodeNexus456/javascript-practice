@@ -2,6 +2,7 @@
 // age = age + 3;
 // console.log(age);
 
+
 // const { useReducer } = require("react");
 
 // Average 
@@ -232,41 +233,130 @@
 
 // Array of object 
 
-let CalssInfo  = [
-  {
-    name : "Suraj",
-    age : 64,
-    grade : "A+"
-  },
-  {
-    name : "Shiva",
-    age : 73,
-    grade : "B+"
-  },
-  {
-    name : "Shiva Paswan",
-    age : "22",
-    grade : "C+"
+// let CalssInfo  = [
+//   {
+//     name : "Suraj",
+//     age : 64,
+//     grade : "A+"
+//   },
+//   {
+//     name : "Shiva",
+//     age : 73,
+//     grade : "B+"
+//   },
+//   {
+//     name : "Shiva Paswan",
+//     age : "22",
+//     grade : "C+"
+//   }
+// ]
+
+// console.log(Math.PI);
+// console.log(Math.E);
+// console.log(Math.sqrt(63));
+// console.log(Math.round(7.8937));
+// console.log(Math.random());
+
+// // generate random number from 1 to 10 
+
+// let randomNum = Math.floor(Math.random()*10)+1;
+// console.log("random Number from 1to 10 : " + randomNum);
+
+// // generate otp
+
+// let opt = Math.floor(1000+Math.random()*9000);
+// console.log("My otp is : ",opt);
+
+// // generate 6-digit otp 
+
+// let randomOtp = Math.floor(100000 + Math.random()*900000);
+// console.log("6-digit otp : " + randomOtp);
+
+
+
+// Function 
+
+// function hello() {
+//   console.log("Hello World");
+// }
+
+// hello();
+// hello();
+
+// function RollDisc() {
+//   let random = Math.floor(Math.random()*6)+1;
+//   console.log(random);
+// }
+
+// RollDisc();
+
+// Functio with argument 
+
+// function hello(name) {
+//   console.log("Hello "+name);
+// }
+
+// hello("Suraj");
+
+// function hello(name , age) {
+//   console.log(`my name is ${name} and my age is ${age}`);
+// }
+
+// hello("Suraj kumar", 22);
+// hello("Shiva paswan",23);
+
+// Sum of two number 
+
+// function sum( a , b) {
+//   console.log("Sum of two number is : ", a+b);
+// }
+
+// sum(3,6);
+
+// Average of three number 
+
+// function Average(a,b,c) {
+//   let avg = (a+b+c)/3;
+//   console.log("Average of three number is : " ,avg);
+// }
+
+// Average(3,4,5);
+// Average(2,29,5);
+// Average(28,22,5);
+// Average(83,4,5);
+
+// Multiplication table 
+
+// function MultiTable(a){
+//   for(let i=1; i<=10; i++) {
+//     console.log(i*a);
+//   }
+// }
+
+// MultiTable(2);
+// console.log("-------------")
+// MultiTable(3);
+// console.log("-------------")
+// MultiTable(4);
+
+
+// Function Exporession
+
+// let sum = function(a,b) {
+//   return a+b;
+// }
+// console.log(sum(4,6));
+
+// higher order function
+
+function multiGreet(func,n) {
+  for (let i=0; i<=n; i++) {
+    func();
   }
-]
+}
+  let greet = function() {
+    console.log("hellow world");
 
-console.log(Math.PI);
-console.log(Math.E);
-console.log(Math.sqrt(63));
-console.log(Math.round(7.8937));
-console.log(Math.random());
+  }
 
-// generate random number from 1 to 10 
-
-let randomNum = Math.floor(Math.random()*10)+1;
-console.log("random Number from 1to 10 : " + randomNum);
-
-// generate otp
-
-let opt = Math.floor(1000+Math.random()*9000);
-console.log("My otp is : ",opt);
-
-// generate 6-digit otp 
-
-let randomOtp = Math.floor(100000 + Math.random()*900000);
-console.log("6-digit otp : " + randomOtp);
+multiGreet(greet,2);
