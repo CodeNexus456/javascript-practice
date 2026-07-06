@@ -3,6 +3,9 @@
 // console.log(age);
 
 
+
+
+
 // const { useReducer } = require("react");
 
 // Average 
@@ -349,14 +352,239 @@
 
 // higher order function
 
-function multiGreet(func,n) {
-  for (let i=0; i<=n; i++) {
-    func();
+// function multiGreet(func,n) {
+//   for (let i=0; i<=n; i++) {
+//     func();
+//   }
+// }
+//   let greet = function() {
+//     console.log("hellow world");
+
+//   }
+
+// multiGreet(greet,2);
+
+
+
+// method
+
+// const calculator = {
+
+//   num : 55,
+//   add : function(a,b) {
+//     return a + b;
+//   },
+
+//   sub : function (a,b) {
+//     return a - b;
+//   },
+
+//   division : function(a,b) {
+//     return a / b;
+//   },
+
+//   mode : function(a,b) {
+//     return a%b;
+//   },
+
+//   multi : function(a,b) {
+//     return a*b;
+//   }
+// };
+
+// or shorthand method 
+
+
+// const calculator = {
+
+
+//   add(a,b) {
+//     return a + b;
+//   },
+
+//   sub(a,b) {
+//     return a - b;
+//   },
+
+//   division(a,b) {
+//     return a / b;
+//   },
+
+//   mode(a,b) {
+//     return a%b;
+//   },
+
+//   multi(a,b) {
+//     return a*b;
+//   }
+// };
+
+
+// this keyword 
+
+// const Student = {
+//   name : "Suraj kumar",
+//   age : 53,
+//   phy : 73,
+//   chem : 98,
+//   math : 98,
+//   letAvg (){
+//     getAvg = (this.phy + this.chem + this.math )/3,
+//   console.log(`name ${name}` );
+//   }
+ 
+// }
+
+
+// try and catch 
+
+// console.log("Start");
+// // console.log(User.name);
+
+// try{
+//   console.log(user.name)
+// } catch(error) 
+//  {
+//   console.log("Somthing went wrong");
+// }
+// console.log("end");
+
+
+// console.log(a);
+
+// try {
+//   console.log(a);
+// } catch(error) {
+//   console.log("veriable is defined");
+// }
+
+// try {
+//   console.log(error);
+// } catch(error) {
+//   console.log(error);
+// }
+
+
+
+// Arrow Function
+
+// let greet = ()=> {
+//   console.log("Hello world");
+// }
+// greet();
+// greet();
+
+// const Student = {
+//   name : "Suraj kumar",
+//   age : 21,
+
+//    greet() {
+//     console.log(`My name is ${this.name} and age is ${this.age}`);
+//   }
+
+// }
+// Student.greet();
+
+
+// Arrow function 
+
+// const greet = (a,b)=> {
+//   console.log(a+b);
+// }
+
+// greet(873,983);
+
+// Implicit return
+
+// let greet = (a,b) => a + b;
+// console.log(greet(73,9));
+
+
+
+// console.log("Start");
+// setTimeout(()=>{
+//   console.log("running function .....");
+// },3000)
+// console.log("end");
+
+
+// console.log("Start");
+// let id = setInterval(()=>{
+//   console.log("Apna ollege ");
+// },2000)
+// // console.log("end");
+
+// console.log(id);
+
+// // console.log("Start");
+// let id2 = setInterval(()=>{
+//   console.log("hello world");
+// },3000)
+// // console.log("end");
+
+// console.log(id2);
+
+
+// this with arrow function
+
+// let student = {
+//   name: "Suraj kumar",
+//   age : 36,
+//   prop : this ,
+
+//   getNam: function() {
+//     console.log(this); // global scop
+//     return this.name;
+//   },
+
+//   getAge : ()=> {
+//     console.log(this);// parent's scop -> window
+//     return this.age;
+//   },
+
+//   getInfo1: function(){
+//     setTimeout(()=>{
+//       console.log(this);
+//     },2000);
+//   } ,
+
+//   getInfo2 : function() {
+//     setTimeout(function() {
+//       console.log(this);
+//     },2000)
+//   }
+// }
+
+
+
+
+// Squar of a number 
+
+// let sqr = (a)=> {
+//   return a * a;
+// }
+
+// console.log(sqr(3));
+// let 
+
+
+// q=2
+
+// let id = setInterval(()=> {
+//   console.log("Hello world");
+// },2000);
+
+// setTimeout(() => {
+//   clearInterval(id);
+//   console.log("Clear interval");
+// }, 10000);
+
+// q=1 
+
+let arrayAverage = ()=> {
+  let arr = [2,3,4,6,6];
+  for(let i=0; i<=arr.length; ++i){
+    let avg = (arr[0]+arr[1]+arr[2]+arr[3]+arr[4])/arr.length;
+    console.log(avg);
   }
 }
-  let greet = function() {
-    console.log("hellow world");
-
-  }
-
-multiGreet(greet,2);
