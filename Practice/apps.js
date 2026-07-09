@@ -581,10 +581,134 @@
 
 // q=1 
 
-let arrayAverage = ()=> {
-  let arr = [2,3,4,6,6];
-  for(let i=0; i<=arr.length; ++i){
-    let avg = (arr[0]+arr[1]+arr[2]+arr[3]+arr[4])/arr.length;
-    console.log(avg);
+// let arrayAverage = ()=> {
+//   let arr = [2,3,4,6,6];
+//   for(let i=0; i<=arr.length; ++i){
+//     let avg = (arr[0]+arr[1]+arr[2]+arr[3]+arr[4])/arr.length;
+//     console.log(avg);
+//   }
+// }
+
+// ForEach method
+
+// let arr = [1,3,4,6,7,9];
+
+// let print = function(el) {
+//   console.log(el);
+// };
+
+// arr.forEach(print);
+
+// or 
+
+// arr.forEach(function(el) {
+//   console.log(el);
+// })
+
+
+
+// let arr = [{
+//   name : "Suraj kumar",
+//   age : 23
+// },
+// {
+//   name : "Shiva",
+//   age : 24
+// },
+// {
+//   name : "Vivek kumar" ,
+//   age : 34
+// }]
+
+// arr.forEach((student)=> {
+//   console.log(student.age);
+// })
+
+// map fucntion 
+
+// let arr = [1,3,5,6,7,8,9];
+
+// let double = arr.map((el)=> {
+//   return el * 2;
+// })
+
+// filter function
+
+// let num = [1,3,3,4,5,67,8,8,9,9,99,,34,6,8,99,55,432,22,2];
+
+// let ans = num.filter((el)=> {
+//   return el % 2 == 0;  // even number
+// })
+
+
+
+// every function
+
+// let arr = [2,4,6,8,4];
+
+// arr.every((el)=> {
+//   return el % 2 ==0;
+// })
+
+
+// reduce function
+
+// let arr = [2,4,6,8,9,3];
+
+// let Finalvalue = arr.reduce((res,el)=> res + el);
+
+// console.log(Finalvalue);
+
+
+
+// find maximum elemnt in array 
+
+//  let arr = [3,5,6,8,9,0,2];
+// 
+// let max = -1;
+
+// for(let i=0; i<=arr.length; i++) {
+//   if(max < arr[i]) {
+//     max = arr[i];
+//   }
+// }
+
+// console.log(max);
+
+
+// or 
+
+
+// let max = arr.reduce((max,el) => {
+//   if(max < el) {
+//     return el
+//   } else {
+//     return max;
+//   }
+// });
+
+// console.log(max);
+
+// multivple of 10
+
+// let arr = [10,20,30,40];
+// let ans = arr.every((el) => {
+//   return el % 10 == 0;
+// })
+
+// console.log(ans);
+
+
+// find minimum number 
+
+let arr = [2,3,4,6,8,9];
+
+let min = arr.reduce((min,el)=> {
+  if(min < el) {
+    return min;
+  } else {
+    return el;
   }
-}
+})
+
+console.log(min);
