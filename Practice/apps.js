@@ -701,14 +701,62 @@
 
 // find minimum number 
 
-let arr = [2,3,4,6,8,9];
+// let arr = [2,3,4,6,8,9];
 
-let min = arr.reduce((min,el)=> {
-  if(min < el) {
-    return min;
-  } else {
-    return el;
-  }
-})
+// let min = arr.reduce((min,el)=> {
+//   if(min < el) {
+//     return min;
+//   } else {
+//     return el;
+//   }
+// })
 
-console.log(min);
+// console.log(min);
+
+
+
+// defaulte parameter 
+
+// function add( a = 0, b = 0) {
+//   return a+b;
+// }
+
+// console.log(add());
+// console.log(add(10));
+// console.log(add(10,20));
+
+
+// function CreateUser(name = "Anonymouse", role = "Student") {
+//   console.log(name + "_" + role);
+// }
+// CreateUser();
+// CreateUser("Suraj");
+// CreateUser("Suraj", "Developer");
+
+
+// Spreade operator
+
+// let arr = [1,3,4];
+// let arr2 = [...arr];
+// // console.log(...arr);
+
+// console.log(...arr2);
+
+
+// merge array
+
+// let arr1 = [1,2,3,4];
+// let arr2 = [5,6,7,8,9];
+
+// let arr3 = [...arr1, ...arr2];
+
+// console.log(arr3);
+
+
+// rest 
+
+function sum (...number) {
+  console.log(number);
+}
+
+sum(20,30,40,50);
