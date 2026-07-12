@@ -755,8 +755,25 @@
 
 // rest 
 
-function sum (...number) {
-  console.log(number);
-}
+// function sum (...number) {
+//   console.log(number);
+// }
 
-sum(20,30,40,50);
+// sum(20,30,40,50);
+
+
+// let p = document.createElement("p");
+// p.innerText = " hello world !";
+// document.body.appendChild(p);
+
+// p.addEventListener("click", ()=> {
+//   p.style.color = "red";
+// })
+
+
+
+let heading = document.getElementById("para");
+let btn = document.getElementById("btn");
+btn.addEventListener("click",()=>{
+  heading.innerText = "Hello World";
+});
