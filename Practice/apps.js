@@ -2,13 +2,9 @@
 // age = age + 3;
 // console.log(age);
 
-
-
-
-
 // const { useReducer } = require("react");
 
-// Average 
+// Average
 
 // let hindi = 30;
 // let english = 70;
@@ -17,18 +13,16 @@
 // let Average = (hindi + english + math) / 3;
 // console.log("Average of Marks : " + Average);
 
-
-// template literal 
+// template literal
 
 // let PencilePrice = 5;
-// let eresiorPrice = 10; 
+// let eresiorPrice = 10;
 // // let output =" sum of total price is " + (PencilePrice + eresiorPrice) + " rupeese. ";
 
 // let output = `sum of total price is ${PencilePrice + eresiorPrice} rupess.`;
 // console.log(output);
 
-
-// If Statement 
+// If Statement
 
 // let color = "red";
 
@@ -60,10 +54,7 @@
 //   conaole.log("inavalid");
 // }
 
-
-
-
-// nested idf -else 
+// nested idf -else
 
 // let marks = 99;
 
@@ -89,45 +80,42 @@
 //   }
 // }
 
-
-
 // if(str[0] == "a" && str.length >= 3) {
 //   console.log("Good String");
 // } else {
 //   console.log("Not Good String");
 // }
 
-
-// switch statement 
+// switch statement
 
 // let day = "10";
 
 // switch(day) {
-//   case "1" : 
+//   case "1" :
 //   console.log("Monday");
 //   break;
 
-//   case "2" : 
+//   case "2" :
 //   console.log("Tuesday");
 //   break;
 
-//   case "3" : 
+//   case "3" :
 //   console.log("Wednesday");
 //   break;
 
-//   case "4" : 
+//   case "4" :
 //   console.log("thirsday");
 //   break;
 
-//   case "5" : 
+//   case "5" :
 //   console.log("friday");
 //   break;
 
-//   case "6" : 
+//   case "6" :
 //   console.log("Saturday");
 //   break;
 
-//   case "7" : 
+//   case "7" :
 //   console.log("Sunday");
 //   break;
 
@@ -158,8 +146,7 @@
 
 // console.log(msg1.trim().toUpperCase());
 
-
-// nested array 
+// nested array
 
 // for loop
 
@@ -169,9 +156,9 @@
 //   } else{
 //     console.log("even number :" , i);
 //   }
-// } 
+// }
 
-// gauss Movie 
+// gauss Movie
 
 // let movie = "Avatar";
 
@@ -180,9 +167,7 @@
 // while(guess!=movie) {
 //   console.log("try again");
 
-
 // }
-
 
 // let student = [["aman",94],["Suraj",92],["Shiva",90]];
 
@@ -192,7 +177,6 @@
 //     console.log( student[i][j]);
 //   }
 // }
-
 
 // object Literal
 
@@ -213,9 +197,7 @@
 //   tag: "4 Account"
 // }
 
-
-
-// Nested Object 
+// Nested Object
 
 // let Student = {
 //   name : {
@@ -233,8 +215,7 @@
 //   }
 // }
 
-
-// Array of object 
+// Array of object
 
 // let CalssInfo  = [
 //   {
@@ -260,7 +241,7 @@
 // console.log(Math.round(7.8937));
 // console.log(Math.random());
 
-// // generate random number from 1 to 10 
+// // generate random number from 1 to 10
 
 // let randomNum = Math.floor(Math.random()*10)+1;
 // console.log("random Number from 1to 10 : " + randomNum);
@@ -270,14 +251,12 @@
 // let opt = Math.floor(1000+Math.random()*9000);
 // console.log("My otp is : ",opt);
 
-// // generate 6-digit otp 
+// // generate 6-digit otp
 
 // let randomOtp = Math.floor(100000 + Math.random()*900000);
 // console.log("6-digit otp : " + randomOtp);
 
-
-
-// Function 
+// Function
 
 // function hello() {
 //   console.log("Hello World");
@@ -293,7 +272,7 @@
 
 // RollDisc();
 
-// Functio with argument 
+// Functio with argument
 
 // function hello(name) {
 //   console.log("Hello "+name);
@@ -308,7 +287,7 @@
 // hello("Suraj kumar", 22);
 // hello("Shiva paswan",23);
 
-// Sum of two number 
+// Sum of two number
 
 // function sum( a , b) {
 //   console.log("Sum of two number is : ", a+b);
@@ -316,7 +295,7 @@
 
 // sum(3,6);
 
-// Average of three number 
+// Average of three number
 
 // function Average(a,b,c) {
 //   let avg = (a+b+c)/3;
@@ -328,7 +307,7 @@
 // Average(28,22,5);
 // Average(83,4,5);
 
-// Multiplication table 
+// Multiplication table
 
 // function MultiTable(a){
 //   for(let i=1; i<=10; i++) {
@@ -341,7 +320,6 @@
 // MultiTable(3);
 // console.log("-------------")
 // MultiTable(4);
-
 
 // Function Exporession
 
@@ -363,8 +341,6 @@
 //   }
 
 // multiGreet(greet,2);
-
-
 
 // method
 
@@ -392,11 +368,9 @@
 //   }
 // };
 
-// or shorthand method 
-
+// or shorthand method
 
 // const calculator = {
-
 
 //   add(a,b) {
 //     return a + b;
@@ -419,8 +393,7 @@
 //   }
 // };
 
-
-// this keyword 
+// this keyword
 
 // const Student = {
 //   name : "Suraj kumar",
@@ -432,23 +405,21 @@
 //     getAvg = (this.phy + this.chem + this.math )/3,
 //   console.log(`name ${name}` );
 //   }
- 
+
 // }
 
-
-// try and catch 
+// try and catch
 
 // console.log("Start");
 // // console.log(User.name);
 
 // try{
 //   console.log(user.name)
-// } catch(error) 
+// } catch(error)
 //  {
 //   console.log("Somthing went wrong");
 // }
 // console.log("end");
-
 
 // console.log(a);
 
@@ -463,8 +434,6 @@
 // } catch(error) {
 //   console.log(error);
 // }
-
-
 
 // Arrow Function
 
@@ -485,8 +454,7 @@
 // }
 // Student.greet();
 
-
-// Arrow function 
+// Arrow function
 
 // const greet = (a,b)=> {
 //   console.log(a+b);
@@ -499,14 +467,11 @@
 // let greet = (a,b) => a + b;
 // console.log(greet(73,9));
 
-
-
 // console.log("Start");
 // setTimeout(()=>{
 //   console.log("running function .....");
 // },3000)
 // console.log("end");
-
 
 // console.log("Start");
 // let id = setInterval(()=>{
@@ -523,7 +488,6 @@
 // // console.log("end");
 
 // console.log(id2);
-
 
 // this with arrow function
 
@@ -555,18 +519,14 @@
 //   }
 // }
 
-
-
-
-// Squar of a number 
+// Squar of a number
 
 // let sqr = (a)=> {
 //   return a * a;
 // }
 
 // console.log(sqr(3));
-// let 
-
+// let
 
 // q=2
 
@@ -579,7 +539,7 @@
 //   console.log("Clear interval");
 // }, 10000);
 
-// q=1 
+// q=1
 
 // let arrayAverage = ()=> {
 //   let arr = [2,3,4,6,6];
@@ -599,13 +559,11 @@
 
 // arr.forEach(print);
 
-// or 
+// or
 
 // arr.forEach(function(el) {
 //   console.log(el);
 // })
-
-
 
 // let arr = [{
 //   name : "Suraj kumar",
@@ -624,7 +582,7 @@
 //   console.log(student.age);
 // })
 
-// map fucntion 
+// map fucntion
 
 // let arr = [1,3,5,6,7,8,9];
 
@@ -640,8 +598,6 @@
 //   return el % 2 == 0;  // even number
 // })
 
-
-
 // every function
 
 // let arr = [2,4,6,8,4];
@@ -649,7 +605,6 @@
 // arr.every((el)=> {
 //   return el % 2 ==0;
 // })
-
 
 // reduce function
 
@@ -659,12 +614,10 @@
 
 // console.log(Finalvalue);
 
-
-
-// find maximum elemnt in array 
+// find maximum elemnt in array
 
 //  let arr = [3,5,6,8,9,0,2];
-// 
+//
 // let max = -1;
 
 // for(let i=0; i<=arr.length; i++) {
@@ -675,9 +628,7 @@
 
 // console.log(max);
 
-
-// or 
-
+// or
 
 // let max = arr.reduce((max,el) => {
 //   if(max < el) {
@@ -698,8 +649,7 @@
 
 // console.log(ans);
 
-
-// find minimum number 
+// find minimum number
 
 // let arr = [2,3,4,6,8,9];
 
@@ -713,9 +663,7 @@
 
 // console.log(min);
 
-
-
-// defaulte parameter 
+// defaulte parameter
 
 // function add( a = 0, b = 0) {
 //   return a+b;
@@ -725,14 +673,12 @@
 // console.log(add(10));
 // console.log(add(10,20));
 
-
 // function CreateUser(name = "Anonymouse", role = "Student") {
 //   console.log(name + "_" + role);
 // }
 // CreateUser();
 // CreateUser("Suraj");
 // CreateUser("Suraj", "Developer");
-
 
 // Spreade operator
 
@@ -741,7 +687,6 @@
 // // console.log(...arr);
 
 // console.log(...arr2);
-
 
 // merge array
 
@@ -752,15 +697,13 @@
 
 // console.log(arr3);
 
-
-// rest 
+// rest
 
 // function sum (...number) {
 //   console.log(number);
 // }
 
 // sum(20,30,40,50);
-
 
 // let p = document.createElement("p");
 // p.innerText = " hello world !";
@@ -770,15 +713,13 @@
 //   p.style.color = "red";
 // })
 
-
-
 // let heading = document.getElementById("para");
 // let btn = document.getElementById("btn");
 // btn.addEventListener("click",()=>{
 //   heading.innerText = "Hello World";
 // });
 
-// this event 
+// this event
 
 // let h1 = document.querySelector("h1");
 // let h3 = document.querySelector("h3");
@@ -793,14 +734,12 @@
 // h1.addEventListener("click",changeColor);
 // h3.addEventListener("click",changeColor);
 
-
-
 // let btn = document.querySelector("#btn");
 // let input = document.querySelector("input");
 
 // input.addEventListener("keydown",function(event){
 //   // console.log(input);
-  
+
 //   // console.log(" key press  = " + event.key);
 //   console.log("key code  = " + event.code);
 //   // console.log("input was pressed");
@@ -814,7 +753,6 @@
 //     console.log("Character move down");
 //   }
 
-
 // });
 
 // let form = document.querySelector("form");
@@ -826,10 +764,8 @@
 //   console.log(username.value);
 //   console.log(password.value);
 //   alert(`hi ${username.value} , your password is set to ${password.value}`);
-  
+
 // });
-
-
 
 // let input = document.querySelector("input");
 // let para = document.querySelector("p");
@@ -839,7 +775,6 @@
 //   para.innerText = input.value;
 // })
 
-
 // let input = document.querySelector("input");
 // let h2 = document.querySelector("h2");
 
@@ -848,23 +783,18 @@
 //   h2.innerText = input.value;
 // })
 
-
-
 // let div = document.querySelector("div");
 // let ul = document.querySelector("ul");
 // let lis = document.querySelectorAll("li");
-
 
 // div.addEventListener("click",function() {
 //   console.log("Div was clicked");
 // });
 
-
 // ul.addEventListener("click",function(event) {
 //   event.stopPropagation;
 //   console.log("ul was clicked");
 // });
-
 
 // for(li of lis) {
 //   lis.addEventListener("click",function(event) {
@@ -879,24 +809,37 @@ let btn = document.querySelector("button");
 let li = document.querySelector("li");
 let ul = document.querySelector("ul");
 
-btn.addEventListener("click",function() {
-
+btn.addEventListener("click", function () {
   let items = document.createElement("li");
-  let delbtn = document.createElement("button");
   items.innerText = input.value;
-  delbtn.innerText = "delete";
-delbtn.classList.add("delete");
 
- items.appendChild(delbtn);
-  
-   ul.appendChild(items);
+  let delbtn = document.createElement("button");
+  delbtn.innerText = "delete";
+  delbtn.classList.add("delete");
+
+  items.appendChild(delbtn);
+
+  ul.appendChild(items);
   input.value = "";
 });
 
 
- let delbtns = document.querySelector(".delete");
-for(delbtn of  delbtns) {
-  delbtn.addEventListener("click",function() {
-    console.log("button dleleted");
-  });
-};
+ul.addEventListener("click",function(event){ // by event bubbling
+  if(event.target.nodeName == "BUTTON") {
+    let listItems = event.target.parentElement;
+    listItems.remove();
+    console.log("deleted");
+  }
+
+})
+
+
+// let delbtns = document.querySelectorAll(".delete");
+// for (delbtn of delbtns) {
+//   delbtn.addEventListener("click", function () {
+//     console.log("button deleted");
+//     let par = this.parentElement;
+//     console.log(par);
+//     par.remove();
+//   });
+// };
