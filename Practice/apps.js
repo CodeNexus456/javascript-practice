@@ -772,8 +772,79 @@
 
 
 
-let heading = document.getElementById("para");
-let btn = document.getElementById("btn");
-btn.addEventListener("click",()=>{
-  heading.innerText = "Hello World";
-});
+// let heading = document.getElementById("para");
+// let btn = document.getElementById("btn");
+// btn.addEventListener("click",()=>{
+//   heading.innerText = "Hello World";
+// });
+
+// this event 
+
+// let h1 = document.querySelector("h1");
+// let h3 = document.querySelector("h3");
+// let p = document.querySelector("p");
+// let btn = document.querySelector("#btn");
+// function changeColor () {
+//   console.log(this.innerText);
+//   this.style.backgroundColor = "blue";
+// }
+
+// btn.addEventListener("click",changeColor);
+// h1.addEventListener("click",changeColor);
+// h3.addEventListener("click",changeColor);
+
+
+
+// let btn = document.querySelector("#btn");
+// let input = document.querySelector("input");
+
+// input.addEventListener("keydown",function(event){
+//   // console.log(input);
+  
+//   // console.log(" key press  = " + event.key);
+//   console.log("key code  = " + event.code);
+//   // console.log("input was pressed");
+//   if(event.code == "KeyU") {
+//     console.log("Character move up");
+//   } else if(event.code == "KeyH") {
+//     console.log("Character move left");
+//   } else if(event.code == "KeyK") {
+//     console.log("Character move Arrow right");
+//   } else if(event.code == "KeyN") {
+//     console.log("Character move down");
+//   }
+
+
+// });
+
+// let form = document.querySelector("form");
+// let username = document.querySelector("#name");
+// let password = document.querySelector("#pass");
+
+// form.addEventListener("submit",(event)=> {
+//   event.preventDefault();
+//   console.log(username.value);
+//   console.log(password.value);
+//   alert(`hi ${username.value} , your password is set to ${password.value}`);
+  
+// });
+
+
+
+// let input = document.querySelector("input");
+// let para = document.querySelector("p");
+
+// input.addEventListener("input",function() {
+//   console.log(input.value);
+//   para.innerText = input.value;
+// })
+
+
+let input = document.querySelector("input");
+let h2 = document.querySelector("h2");
+
+input.addEventListener("input",function(){
+  console.log(input.value);
+  h2.innerText = input.value;
+})
+
