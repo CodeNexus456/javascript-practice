@@ -47,14 +47,21 @@ function savetoDb(data) {
 }
 
 savetoDb("apna college")
-  .then(() => {
+  .then((result) => {
     console.log("data1 saved");
-
-    savetoDb("helloworld").then(() => {
-      console.log("data2 saved");
-    });
+    console.log("result of promise : " , reject);
+    return savetoDb("hello world");
   })
-  .catch(() => {
+  .then((result) => {
+    console.log("data2 saved");
+    console.log("result of promise : " , reject);
+    return savetoDb("Suraj kumar");
+  })
+  .then((result) => {
+    console.log("data 3 save");
+    console.log("result of promise : " , reject);
+  })
+  .catch((error) => {
     console.log("Promise was rejected");
-    // console.log(request);
+    console.log("error of promise : " , error);
   });
